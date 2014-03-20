@@ -118,7 +118,7 @@ class Yaml
 
         $ret = null;
         if (!isset($this->datas[$name])) {
-            $file = "{$this->ymlDir}/{$name}" . self::EXTENSION;
+            $file = $this->ymlDir.DS.$name.self::EXTENSION;
             if (!file_exists($file)) {
                 throw new Exception\LogicException("YAMLファイルが見つかりません({$file})");
             }
