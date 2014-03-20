@@ -4,6 +4,9 @@ namespace mist\mist\library;
 
 use mist\mist\Exception;
 
+/**
+ * Test for mist\mist\library\Yaml.php
+ */
 class YamlTest extends \PHPUnit_Framework_TestCase
 {
     /**
