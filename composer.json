@@ -7,7 +7,6 @@
         "bin-dir": "bin"
     },
     "require": {
-        "fabpot/php-cs-fixer": "0.4.*",
         "mustangostang/spyc": "0.5.*",
         "twig/twig": "1.*"
     },
