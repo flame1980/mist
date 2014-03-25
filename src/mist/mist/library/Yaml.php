@@ -11,7 +11,7 @@ if (!defined('DS')) {
 /**
 * YAMLファイルから値を取得するクラス
 *
-* @package Quartet.CsvConverter
+* @package mist.mist
 */
 class Yaml
 {
